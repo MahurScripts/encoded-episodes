@@ -1,0 +1,41 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Ensures children are vertically centered */
+    background-color: grey;
+    color: white;
+    font-weight: bold; 
+    height: 60px; /* Fixed height for the navbar */
+    padding: 0rem 1rem; /* Optional: Padding to control space inside the navbar */
+
+}
+.links {
+    display: flex;
+    gap: 2rem;
+  
+}
+.links a {
+    color: white;       /* Set link color to white */
+    font-weight: bold;  /* Make links bold */
+    text-decoration: none; /* Remove underline from links */
+}
+.subscribe {
+   /* Increase padding to make button larger */
+    font-size: 16px; /* Button text size */
+    background-color: cyan;
+    width:7rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+
+.subscribe:hover {
+    background-color: #00bcd4; /* Darker cyan on hover for feedback */
+}
+
+
+
+
